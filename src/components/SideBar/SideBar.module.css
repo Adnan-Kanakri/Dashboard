@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+.sideBar {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #181053 -21.94%,
+    #301840 17.1%,
+    #3f033b 62.89%,
+    #592635 110.93%
+  );
+  width: 236px; /* 236.25px*/
+  height: 100%;
+}
+
+.main {
+  margin: 28px 55px 23px -32px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  margin: 21px 0px 35px 85px;
+  padding: 0;
+  color: white;
+  left: 0;
+  top: 0;
+}
+.logo h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.flexChildren {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 17px 100px 0px 0px;
+}
+
+.divIcon {
+  padding: 10px 15px 3px 28px;
+  margin: 0px 0px 0px 37px;
+  color: white;
+  left: 0;
+  top: 0;
+}
+
+.middle {
+  width: 210px;
+  height: 15.56px;
+  margin: 0px 0px 0px 41px;
+  padding: 0;
+  border-bottom: 0.972222px solid rgba(230, 232, 236, 0.06);
+}
+
+.Link {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+  opacity: 0.4;
+}
+
+.active {
+  border-left: 2px solid white;
+  margin: auto;
+  margin-left: 84px;
+  width: 0.1px;
+  height: 19.44px;
+  background: #ffffff;
+  border-radius: 1.94444px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.selected {
+  opacity: 1;
+}

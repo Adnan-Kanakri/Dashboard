@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.center {
+  width: 100%;
+  z-index: 2;
+}
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.3333px;
+  line-height: 31px;
+  color: #1b1d21;
+  margin: 44px 0px 12px 20px;
+}
