@@ -82,7 +82,7 @@ export default function CustomizedTables(props) {
                                 fontFamily: 'Inter',
                                 fontStyle: "normal",
                                 fontWeight: "500",
-                                fontSize: "12px",
+                                fontSize: "12px",   
                                 lineHeight: "20px",
                             }}>Pending</span> </TableCell>
                         </TableRow>
